@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  h1 {
+    margin-top: 0;
+    font-size: 22px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+  
+  h3 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  
+  h4 {
+    margin-top: 0;
+    font-size: 16px;
+  }
+  
+  h5 {
+    margin-top: 0;
+    font-size: 14px;
+  }
+  
+  h6 {
+    margin-top: 0;
+    font-size: 12px;
+  }
+  
+  code {
+    font-size: 1.2em;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  .square {
+    background: #072A40;
+    border: 5px solid #09F3FB;
+    float: left;
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 104px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 104px;
+    color: #E63946;
+    font-family: 'Press Start 2P', cursive;
+     
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+  
+  .status {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  .game {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Press Start 2P', cursive;
+    /* background: linear-gradient(black, red, black); */
+  }
+  
+  .game-info {
+    background-image: url('./Assets/fire-elmo.gif');
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-position: center;
+  height: 400px;
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    /* align-items: center */
+  }
+
+  
+
+
+  /* My styles! */
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');  /* Sarpanch */
+  @import url('https://fonts.googleapis.com/css2?family=Sarpanch&display=swap');   /* Sarpanch */
+
+  .parent-bg, html {
+    background-color: black;
+    justify-content: center;
+}
+.game-info button {
+  background-color: #457b9daa;
+  color: #09F3FB;
+  font-size: 16px;
+  /* font-family: 'Sarpanch', sans-serif; */
+  font-family: 'Press Start 2P', cursive;
+  width: 300px;
+  margin-bottom: 2px;
+  padding: 5px;
+  border: 2px solid #09F3FB;
+}
+.game-rules {
+  color: white;
+  width: 50%;
+  font-family: 'Sarpanch', sans-serif;
+
+}
+.footer{
+  color: white;
+  text-align: center;
+  font-family: 'Sarpanch', sans-serif;
+
+ }
